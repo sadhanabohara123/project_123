@@ -1,0 +1,47 @@
+
+body {
+    display: flex;
+
+    
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    margin:auto;
+    margin-top: 50px;
+    width:350px;
+    height:450p;
+    background-color: rgb(161, 161, 223);
+}
+
+.calculator {
+    text-align: center;
+
+}
+
+#display {
+    width: 100;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px black;
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+
+
